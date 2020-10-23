@@ -1,0 +1,1 @@
+<img src="{{it()->url($logo)}}" style="width: 40px;height: 40px">

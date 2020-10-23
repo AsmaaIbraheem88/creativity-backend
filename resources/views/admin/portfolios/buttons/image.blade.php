@@ -1,0 +1,1 @@
+<img  src="{{ it()->url($image) }}" style="height: 40px;width: 40px;">

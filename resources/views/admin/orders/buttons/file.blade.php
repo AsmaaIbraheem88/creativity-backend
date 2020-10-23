@@ -1,0 +1,1 @@
+<img  src="{{ it()->url($file) }}" style="height: 40px;width: 40px;">

@@ -1,0 +1,1112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8f0773bd-2a4e-4655-93d1-25ac65a0c63f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Helpers/General.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/Contacts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Front/FrontController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_admins_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/front/bootstrap_rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/orders/buttons/file.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/front/emails/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/front/emails/order.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/front/maintenance.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/creative.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/creative.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/ChildServicesDataTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/ClientsDataTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DataTables/ClientsDataTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/PortfoliosDataTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/ServicesDataTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DataTables/ServicesDataTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/SlidersDataTable.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/DataTables/SlidersDataTable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/DataTables/SubChildServicesDataTable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Abouts.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Abouts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ChildServices.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Clients.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Clients.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Portfolios.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Services.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Services.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Settings.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Settings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Sliders.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Sliders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Socials.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Socials.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/SubChildServices.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminsApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/AdminsApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/ChildServicesApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/ChildServicesApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/PortfoliosApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/PortfoliosApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Api/SubChildServicesApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/SubChildServicesApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/ChildService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Portfolio.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Service.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Service.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/Setting.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Model/Setting.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Model/SubChildService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_10_19_985759_create_settings_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_10_19_985759_create_settings_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_11_62934_create_abouts_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_11_62934_create_abouts_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_12_193233_create_sliders_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_12_193233_create_sliders_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_12_432588_create_sub_child_services_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_12_751951_create_services_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_12_751951_create_services_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_12_906377_create_child_services_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_14_951_create_portfolios_table.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/all.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/js/all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/js/custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/js/custom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/main_ar.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/main_ar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/front/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/front/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/ChildService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/SubChildService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/front.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/front.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/portfolios.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/slider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/socials.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/ChildService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/SubChildService.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/client.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/front.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/front.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/portfolios.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/services.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/slider.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/socials.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/abouts/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/abouts/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/abouts/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/childservices/buttons/actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/childservices/buttons/image.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/childservices/buttons/image.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/childservices/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/childservices/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/childservices/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/childservices/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/clients/buttons/actions.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/clients/buttons/actions.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/clients/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/clients/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/clients/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/clients/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/clients/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/clients/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/clients/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/clients/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/portfolios/buttons/actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/portfolios/buttons/image.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/portfolios/buttons/image.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/portfolios/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/portfolios/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/portfolios/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/portfolios/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/services/buttons/actions.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/services/buttons/actions.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/services/buttons/active.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/services/buttons/active.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/services/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/services/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/services/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/services/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/services/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/services/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/services/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/services/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/settings.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/settings.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/sliders/buttons/actions.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/sliders/buttons/actions.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/sliders/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/sliders/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/sliders/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/sliders/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/sliders/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/sliders/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/sliders/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/sliders/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/socials.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/socials.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/subchildservices/buttons/actions.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/subchildservices/create.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/subchildservices/edit.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/subchildservices/index.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/subchildservices/show.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/clients.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/clients.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/contact.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/contact.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layouts/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/layouts/messages.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/layouts/messages.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front/order.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front/order.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/configurations.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/configurations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/lang/en/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="98" column="50" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/lang/en/front.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/lang/ar/front.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/clients.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="39" column="91" selection-start-line="39" selection-start-column="91" selection-end-line="39" selection-end-column="91" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/contact.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="59" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/front/home.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3349">
+              <caret line="220" column="91" selection-start-line="220" selection-start-column="91" selection-end-line="220" selection-end-column="91" />
+              <folding>
+                <element signature="e#89#1441#0#HTML" />
+                <element signature="e#3033#3055#0#HTML" expanded="true" />
+                <element signature="e#5189#5250#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>trans('slider</find>
+      <find>trans(&quot;client</find>
+      <find>trans(&quot;portfolio</find>
+      <find>trans(&quot;services</find>
+      <find>trans('portfolio</find>
+      <find>trans('services</find>
+      <find>trans('client</find>
+      <find>submit</find>
+      <find>languags</find>
+      <find>language</find>
+      <find>features</find>
+      <find>bg</find>
+      <find>slider-bg-one</find>
+      <find>design-image</find>
+      <find>message box</find>
+      <find>message-box</find>
+      <find>message</find>
+      <find>var(--pricingTable-yellow)</find>
+      <find>#fd6802</find>
+      <find>#0ebaed</find>
+      <find>GET_QOUTE</find>
+      <find>address</find>
+      <find>contain</find>
+      <find>body</find>
+      <find>font-family</find>
+      <find>p</find>
+      <find>post-media</find>
+      <find>.owl-next i, .owl-prev i</find>
+      <find>.show</find>
+      <find>prettyPhoto[gal]</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>social()</replace>
+      <replace>asset</replace>
+      <replace>trans(&quot;admin</replace>
+      <replace>trans('admin</replace>
+      <replace>#0ebaed</replace>
+      <replace>#087ea1</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/Helpers/General.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Front/Contacts.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_10_20_990034_create_orders_table.php" />
+        <option value="$PROJECT_DIR$/app/Model/Order.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/sliders/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/sliders/edit.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_10_11_62934_create_abouts_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/emails/order.blade.php" />
+        <option value="$PROJECT_DIR$/app/DataTables/OrdersDataTable.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/orders/buttons/file.blade.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/resources/views/front/layouts/footer.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/socials.blade.php" />
+        <option value="$PROJECT_DIR$/resources/lang/ar/admin.php" />
+        <option value="$PROJECT_DIR$/app/Model/Setting.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_10_19_985759_create_settings_table.php" />
+        <option value="$PROJECT_DIR$/routes/configurations.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Settings.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Abouts.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/SubChildServices.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/maintenance.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/layouts/header.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Front/FrontController.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/order.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Portfolios.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ChildServices.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Services.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_10_12_751951_create_services_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2020_10_12_193233_create_sliders_table.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/admin.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Sliders.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Clients.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Socials.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/services/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/services/edit.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/layouts/menu.blade.php" />
+        <option value="$PROJECT_DIR$/routes/admin.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Orders.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/orders/buttons/actions.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/about.blade.php" />
+        <option value="$PROJECT_DIR$/public/front/js/custom.js" />
+        <option value="$PROJECT_DIR$/public/front/style.css" />
+        <option value="$PROJECT_DIR$/resources/views/admin/settings.blade.php" />
+        <option value="$PROJECT_DIR$/public/front/main_ar.css" />
+        <option value="$PROJECT_DIR$/resources/views/front/contact.blade.php" />
+        <option value="$PROJECT_DIR$/resources/lang/en/front.php" />
+        <option value="$PROJECT_DIR$/resources/lang/ar/front.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/front/clients.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-oracle" />
+      <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/pagerfanta/pagerfanta" />
+      <path value="$PROJECT_DIR$/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-snappy" />
+      <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/vendor/barryvdh/laravel-snappy" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/facade/flare-client-php" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition" />
+      <path value="$PROJECT_DIR$/vendor/facade/ignition-contracts" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/scrivo/highlight.php" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-paginator" />
+      <path value="$PROJECT_DIR$/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/maennchen/zipstream-php" />
+      <path value="$PROJECT_DIR$/vendor/jpgraph/jpgraph" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/phpanonymous/it" />
+      <path value="$PROJECT_DIR$/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-fractal" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-html" />
+      <path value="$PROJECT_DIR$/vendor/league/fractal" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-editor" />
+      <path value="$PROJECT_DIR$/vendor/yajra/laravel-datatables-buttons" />
+      <path value="$PROJECT_DIR$/vendor/mcamara/laravel-localization" />
+      <path value="$PROJECT_DIR$/vendor/langnonymous/lang" />
+      <path value="$PROJECT_DIR$/vendor/dompdf/dompdf" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-font-lib" />
+      <path value="$PROJECT_DIR$/vendor/sabberworm/php-css-parser" />
+      <path value="$PROJECT_DIR$/vendor/setasign/fpdi" />
+      <path value="$PROJECT_DIR$/vendor/phenx/php-svg-lib" />
+      <path value="$PROJECT_DIR$/vendor/mpdf/mpdf" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="90" />
+    <option name="y" value="30" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="DataTables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="ar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="en" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="front" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="creative" type="b2602c69:ProjectViewProjectNode" />
+              <item name="creative" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/admin/orders/buttons" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\creative\resources\views\front" />
+      <recent name="C:\wamp64\www\creative\app\Http\Controllers\Front" />
+      <recent name="C:\wamp64\www\creative\app\Model" />
+      <recent name="C:\wamp64\www\creative\resources\views\admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\creative\resources\views\admin\orders\buttons" />
+      <recent name="C:\wamp64\www\creative\app\Http\Controllers\Front" />
+      <recent name="C:\wamp64\www\creative\resources\views\front" />
+      <recent name="C:\wamp64\www\creative\resources\views\front\emails" />
+      <recent name="C:\wamp64\www\creative\app\Http\Controllers\Admin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8f0773bd-2a4e-4655-93d1-25ac65a0c63f" name="Default Changelist" comment="" />
+      <created>1602436056866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602436056866</updated>
+      <workItem from="1602436058169" duration="50252000" />
+      <workItem from="1602995548807" duration="129663000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="179915000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23557048" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23557048" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/routes/configurations.php</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/Front/Contacts.php</url>
+          <line>58</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/front/home.blade.php</url>
+          <line>110</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/front/home.blade.php</url>
+          <line>219</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/front/home.blade.php</url>
+          <line>101</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Front/FrontController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="36" column="29" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/clients/buttons/actions.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="31" column="127" selection-start-line="31" selection-start-column="125" selection-end-line="31" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/clients/buttons/logo.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30" lean-forward="true" selection-start-column="10" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/clients/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-872" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/ar/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="99" column="43" lean-forward="true" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/order.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="52" selection-start-line="14" selection-start-column="52" selection-end-line="14" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_10_20_990034_create_orders_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_10_18_401427_create_portfolios_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_10_18_286534_create_child_services_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_10_18_50933_create_sub_child_services_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_10_12_479053_create_clients_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_10_12_193233_create_sliders_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_10_11_116224_create_socials_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_10_11_62934_create_abouts_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_10_19_985759_create_settings_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2020_10_12_751951_create_services_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/layouts/footer.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-417">
+          <caret line="8" column="88" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Abouts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="516">
+          <caret line="66" column="20" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ChildServices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="120" column="46" selection-start-line="120" selection-start-column="46" selection-end-line="120" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Clients.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="51" column="45" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="126" column="34" selection-start-line="125" selection-start-column="12" selection-end-line="126" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Sliders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="54" column="41" selection-start-line="54" selection-start-column="41" selection-end-line="54" selection-end-column="41" />
+          <folding>
+            <element signature="e#2007#2462#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Portfolios.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="52" column="23" selection-start-line="52" selection-start-column="23" selection-end-line="52" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/SubChildServices.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-829">
+          <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Socials.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/sliders/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/services/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="79" column="95" lean-forward="true" selection-start-line="79" selection-start-column="95" selection-end-line="79" selection-end-column="95" />
+          <folding>
+            <element signature="e#601#902#0#HTML" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/services/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="51" column="89" lean-forward="true" selection-start-line="51" selection-start-column="89" selection-end-line="51" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/layouts/menu.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/orders/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1280" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Settings.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/DataTables/OrdersDataTable.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2637">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Setting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/orders/buttons/actions.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="14" selection-end-column="40" />
+          <folding>
+            <element signature="n#div#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/about.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="50" column="112" selection-start-line="50" selection-start-column="112" selection-end-line="50" selection-end-column="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Orders.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
+          <folding>
+            <element signature="e#2849#3104#0#PHP" />
+            <element signature="e#3112#3843#0#PHP" />
+            <element signature="e#2281#3907#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/layouts/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-801">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/front/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="64" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/settings.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="113" column="119" selection-start-line="113" selection-start-column="119" selection-end-line="113" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/front/main_ar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="70" column="2" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/front/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="98" column="50" selection-start-line="98" selection-start-column="50" selection-end-line="98" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/en/front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/ar/front.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3349">
+          <caret line="220" column="91" selection-start-line="220" selection-start-column="91" selection-end-line="220" selection-end-column="91" />
+          <folding>
+            <element signature="e#89#1441#0#HTML" />
+            <element signature="e#3033#3055#0#HTML" expanded="true" />
+            <element signature="e#5189#5250#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/contact.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/front/clients.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="39" column="91" selection-start-line="39" selection-start-column="91" selection-end-line="39" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
